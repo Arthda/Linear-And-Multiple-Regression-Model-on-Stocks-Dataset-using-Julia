@@ -1,0 +1,77 @@
+Welcome to this guided project on linear regression.
+Using Julia, I'm beneath a silver city and I will be your
+instructor for this guided project.
+I'm a certified data science instructor specializing
+in Python R and Julia for machine learning, as well
+as TensorFlow and Cara's for Deep Learning.
+My latest book, titled Deep Learning Projects Using
+TensorFlow and Charas, was published by April's New York.
+I'm passionate about data science, and I want to make sure
+that you love it as much as I do.
+This project is for beginners who are new to the concept
+off linear regression and multiple regression.
+If you are new to Julia and not too comfortable with it,
+don't worry.
+I'll be guiding you along and explaining each line of code
+as we go through it.
+That's type right in your eye.
+Julia notebook should open automatically.
+All the packages you need are already set up for you.
+Just run the first cell, which is already filled in for you
+so selected and run it.
+While the packages are pre compiling, I'll explain what
+linear regression is as well as multiple regression.
+My definition.
+Linear Regression finds the mathematical equation that best
+describes the Y variable right here as a function off the X
+variable or the features.
+Why is the dependent variable on dhe?
+Ideally, it should be a continuous value.
+We all know the equation off a straight line.
+So here we have White is equal to Vita zero, which is Theo
+intercept Better one, which is the Slope and X I, which is
+the feature from our data set.
+And Epsilon is the error term because our model will provide
+a little bit of fairer.
+Our job as a data scientist is to minimize the Epsilon
+or the error.
+Likewise, you will recall the slope equation, which is X
+I minus x by.
+Why I minus y.
+When it comes to multiple regression, the equation just
+builds on linear regression.
+So we have the Y variable, which is the dependent variable,
+is equal to beat up zero, which is the intercept less beat
+out one, which is the slope, and we always multiply the slope
+with the feature.
+Now, since it is multiple regression were using multiple
+features and these features are X I X, j X k, and so on.
+You can have many of them.
+There's no limit and at the end you add the error term, which
+should be reduced as far as possible.
+Now that you have understood the theory and the formulas
+for linear regression and multiple regression, let's talk
+about how to know if your data is suitable for linear
+regression or multiple regression.
+You need to make sure that the relationship
+between the variables in the data is linear.
+This just means that a majority off the data points, as you
+can see in this diagram, should be able to fit on a single
+straight line When dealing with real world's data.
+You can't expect all the data points to fit on a single
+straight line, so your job is just to make sure that you get
+as many data points as possible.
+And this red line here is called the Line of Best Fit.
+This is what our linear regression model or are multiple
+linear regression.
+Model is predicting.
+Another important factor to note when deciding if your data
+is ideal for linear regression are multiple.
+Linear regression is to check the distribution off the data
+points.
+Ideally, you want the distribution to be normal.
+This means that you should get a bell shaped curve.
+When you plot a graph off the data points, you are now ready
+to start putting these concepts into practice.
+So let's load our data set.
+The cell has been filled in for you your selected and hit run.

@@ -1,0 +1,42 @@
+Build a linear regression model.
+We're going to use the G L M package or the Generalized
+Linear Model package began by typing it using G l M it center
+and in the new line we're going to define our formula.
+The type in F M is equal to at formula Open a bracket hoping
+game Build a rose.
+Then in the new line, we're going to use the L M functions
+first type in Lynn Rag.
+That's what we're going to name A model is equal to Lim is
+the function that will build the model for us And this is
+where we specify the formula and the data set to be used.
+We're going to work with the train Bartoszek, then hit Run.
+You should get an output similar to mine where you get the
+coefficient, the standard error, the lower 95% which is the
+lower court style and the upper 95% which is the upper
+quartile.
+We check if our model will give us the best results were
+going to calculate wth e r square value.
+This value is a statistical measure which tells us the
+proportion off variation in the dependent variable that is
+explained by the independent variable in the model.
+Basically, the higher the R squared value, the better on the
+maximum value that you can get for the R squared.
+Value is one.
+Lucky for us, Julia has a built in function to calculate the
+R squared value.
+Suggest happen are two open bracket and enter the name off
+our model, which is Lynn Rag that run mhm.
+We get point triple 97 et cetera, which, when rounded off,
+comes upto one, which means our model is good.
+The model is ready.
+So Lex, again getting predictions, we'll generate the
+variable test.
+Underscore pred.
+This will be for the test data predict in the bracket Flynn
+Greg Common Test.
+After that hit, run and in a new line, type in train on the
+score. Paret and say, That's equal Coop.
+Predict open a bracket Lynn Rig Comma queen.
+Add a semi colon at the end of the line to prevent it from
+printing out any values.
+Let's add a semi colon appearance well and hit run.

@@ -1,0 +1,70 @@
+Measure the performance off our model by calculating the R
+squared errors off both the test performance as well
+as the train performance.
+This means that we subtract are predicted values
+from the original values and then find the square off
+the result you'll understand as we do it.
+First, Let's create two variables which contain the data
+frame off the original values on dhe, the predicted values.
+So we're going to call these two variables perf underscore,
+test and say that's equal to the second variable, which is DF,
+the score original and that is equal to Here's where
+we create our data frame could be.
+Make sure you put a capital f wouldn't bracket.
+Why underscore?
+Regional is equal to test.
+So from the cast data, we are taking only the open values
+because that's what we're interested in.
+Colin Open after that type in comma by Underscore, Read is
+equal to pest and the score tread.
+But we have the open values trembled the prediction as well
+as theory.
+Jinnah LH open values in a single data frame.
+Next, let's calculate the error.
+That is the difference between the predicted values
+on the original values.
+So we're going to create the variable, fresh underscore test
+fuck ever and say that's equal to her scored test.
+We're gonna square bracket once again.
+Exclamation comma colon!
+This time we're taking the y.
+Underscore original values, often the square bracket.
+Subtract first the score test Open a square bracket.
+Exclamation comma colon.
+Why underscore predicted values?
+So why are the score credit that will Catholic the difference
+for us?
+And now we just find the square off perf underscore test dot
+error. So let's name the new variable perf the score test dot
+ever. And the score es que for square played Brad is equal
+to yes on the score test got era.
+Now make sure you put a full stop and then an Asterix
+and once again type and push underscore Teske, not era.
+So this will multiply the value of profound school test error
+by itself to give you the square value to make sure
+it doesn't print out the values just yet.
+Add a semi colon at the end of the line and had run there
+since Sellers run.
+Now let's do the same calculation.
+But for the train data the safe time, let's just copy
+this code lock and paste it in the next line.
+Wherever you have test, just change it to train.
+Be very careful when doing this and make sure that you've
+changed all the test values to train.
+You can take your time here.
+Don't be in a rush, because if you get any it does.
+It will most probably be because you haven't changed it
+correctly.
+Song. Take your time.
+Change all the variables.
+Okay, then when you feel you're ready Hit, Run.
+The cell has been executed.
+Now let's define functions to find the M A p as well as tthe
+e r m sc mm p or the mean absolute percentage error is also
+known as the main absolute percentage deviation.
+It is a measure of prediction, accuracy off a forecasting
+method and statistics.
+For example, In trans simulations, it is used as a loss
+function.
+What we're doing right now is a trend simulation for stock
+data, and this is why I m a P e is an ideal loss function.

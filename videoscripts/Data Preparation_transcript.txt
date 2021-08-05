@@ -1,0 +1,68 @@
+Let's generate summary statistics for our data in order
+to understand it.
+Better to do this in Julia, we used to describe function, so
+just type and describe open a bracket.
+Enter the data frame, which is the F and hit run.
+We can see that we have the mean minimum median, maximum
+unique and run.
+No missing values.
+That's a good thing, as well as the different data types.
+The majority off the data is off type float 64 Onley.
+Volume is of type in 64 which shouldn't cause a problem
+for our analysis right now, but normally it is best to keep
+all the data in a similar format.
+Linear regression works best with data that has a linear
+relationship.
+So let's do a correlation analysis by using a scatter plot
+to check if our data has a linear relationship.
+To do this, we're going to type in scattered open a bracket.
+DF got open because we want to see the opening values
+and we have got close.
+So we're going to compare the opening values as well
+as the closing values.
+Ben X label is equal to within double quotations, proclaim
+Christ, and we'll set the Y label once again within double
+quotations, this time will happen.
+Closing price.
+It's run.
+All the data points lie on a single straight line.
+Therefore, we know that there is a linear relationship
+between the values, which means this data is ideal for linear
+regression.
+We have found that our data has a linear relationship,
+but what about the distribution?
+Ideally, the data should be normally distributed.
+The best way to analyze Ardika and identify if it is normally
+distributed is to generate a density plot and then check
+for a bell curve.
+This will indicate if it is normally distributed or not.
+So let's Tappan Density open a bracket.
+We have got close.
+Former title is equal to within Rebel quotations.
+That's just for the title Is Density plot?
+After that comma, we'll set the wine label within double
+quotations.
+Open comma X label within double quote patients both.
+No, we could add a legend.
+So let's do that.
+The four B generator plot legend is equal The truth.
+All right now let's hit run.
+We find that there is indeed a bell curve with a few
+additional curves, but these are pretty much negligible.
+So they're not going to have an adverse effect on our linear
+regression.
+We have completed the analysis of our data.
+Now let's split our data to get it ready for the linear
+regression model.
+We're going to use the lap package so type in using lucky
+0.3 Process.
+Colin Green Best weeks.
+Let's call a new data frames train and test did say
+that's equal to green rest but open a bracket.
+The F comma.
+Let's split it in the percent age of 75 so well, type
+and point an MP five.
+It's wrong.
+You should get an output like this, which indicates which
+parts of the data have gone to the first data frame and which
+parts have gone to the second.

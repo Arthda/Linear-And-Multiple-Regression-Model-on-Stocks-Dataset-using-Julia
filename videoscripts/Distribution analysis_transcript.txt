@@ -1,0 +1,45 @@
+To understand the performance off our model.
+Let's do a distribution analysis on the arrow values that we
+just obtained.
+The best way to do this is to visualize it in the form
+off a hist a gram so will generate the history.
+Graham.
+By typing in Mr Graham, I'm gonna bracket Yes, blot open,
+which are the values of the stroke at the time.
+Off opening Coma.
+Let's set the number of bins killed.
+15. This seems like a good number for now.
+You could experiment with that number if you like.
+On a related title within Rebel quote patients, let's specify
+that this hissed a gram indicates the test error analysis.
+After that, type in a coma.
+Why label is equal to within double quotations frequency.
+So along the y axis, we're going to see the label Frequency
+and X label is equal to within double quotations We ever
+values and type in a coma, and we'll add a legend.
+They just said Legend to true.
+Let's hit, run, generate our hissed a gram.
+It may take some time because it has to take into account all
+of the data points, and you should get an output similar
+to mine.
+What we're looking for is a bell curve, which is indeed what
+we get because it has a steep incline and a steep decline.
+The spell shape indicates a normal distribution, which means
+that values are ideal.
+In order to analyze the train error, we're going to use
+the same block of clothes that we used for the test error.
+So let's just copy it safe time and paste it so in a new line.
+Now, wherever you've written test, just replace it with train
+once again, take your time and do this correctly
+so that you don't get any Errol's.
+Once you feel you already that run and all the values
+should be printed out again to analyze it efficiently,
+we're going to generate another hissed a gram.
+So just copy the code from the test, hissed a gram
+and in a new line wasted on dhe this time, change the value
+from open close because we want to study the closing prices
+on you can change the title train error analysis hit Run.
+You should get a graph that looks very similar to the
+previous one, and once again, since it is in a bell shape,
+the curve is in a bell Sheep.
+This means that the data is normally distributed.

@@ -1,0 +1,125 @@
+Using the careful values we need to make sure that the errors
+do not very much, that is, the variance should be minimal.
+Then we know that our model is good.
+So looking at the values for the 1st 10 arrows, we find that
+we appoint five 0.4.
+These are only too well, just round off to the first decimal
+point for convenience and the variance is negligible.
+So this means our model is good.
+Now let's talk about multiple linear regression, multiple
+linear regression ISS similar to linear regression.
+But it takes multiple additional values.
+For example, in our linear regression, all we did was take
+the opening and closing values.
+But now let's add the high values on the low values to see
+how our model performs.
+Just we will define our formula by saying FM one is equal
+to at formula.
+Open the bracket so open, okay, and we're going to say close.
+This is similar so far to our linear regression.
+But after close, we're going to add our additional para
+meters, so we're going to say plus high plus hello.
+After that in the new line, we will build our model by typing
+in Limerick, one that between differentiate between a linear
+regression model, which was just lin, right, and our multiple
+linear regression model, which is Lynn Rig one.
+Use the L. M.
+Function.
+Open a bracket and across the formula, as well as the train
+data. It's run.
+You should get the output like this showing
+in the coefficient.
+Standard error lower and upper 95%.
+Last time you saw how I calculated wth e r square value.
+So this time I want you to try it cause the video here
+and give it a shot.
+You can refer to the formula that I used, and when you feel
+you've solved it, play the video again to see how I do it,
+ready for the solution so you use the function.
+Are too open a bracket and type in Limerick one.
+It's as simple as that.
+Then you hit run, and you should get the value similar
+to mine.
+If you recall, I said that one is the maximum value that you
+can get, and that indicates that your model is perfect.
+Since we have a 0.9 when you round it off, it does come toe
+one, or even if you don't want a round it off.
+It's still nine, so the model is good.
+Now let's move on to making the prediction.
+It's similar to how we make predictions for a linear
+regression model, so I want you to try it on your own.
+Just remember to change the name off the variables.
+I would advise you to add one at the end, as I have done
+for the Lynn Rag model, so that there are no confusions
+with your results.
+Once the video here and give it a shot when you feel you're
+ready, played with you again to see how I do it, ready
+for the solution to save time, and I'm pretty sure you
+would have done the same.
+I'm going to copy the code block from here.
+So let's first begin that the prediction and type it here.
+As I said, Unique change the variable names.
+So just at a one in both of these sections and the model is
+Lynn Rick What?
+So just add the one on.
+It's the same down here.
+We don't have a test one and a train once.
+Don't try to change those two.
+It run, and you should yet a successful execution
+off the cell.
+Now for the test performance data frame, just copy and paste
+code and changed the variables.
+The original one by original one leave test as it is as well
+as open.
+Why pred should have a one and test prayed.
+Should have a one and the next line.
+Don't have one after error added before error than perf test
+one. Why underscore Original one once again perf test
+one and wipe red one.
+Then we have perfect test at one there, then dot Error
+Underscore Rescue Earth Test one and proof test one.
+Run the south.
+This should give you the test Eros.
+Likewise for the train arrows.
+We just need to add one to all the necessary regions to take
+your time and make the necessary changes.
+Then when you're ready, Hit, Run.
+There you go.
+Let's move on to the error analysis.
+Once again, this is similar to what we've done for our linear
+regression model.
+I want you to try this on your own as well.
+But this time I want you to find only the main absolute error.
+Just type in the code for that, and then we can move on to
+the next part.
+So pause the video here, give it a shot And when you feel
+you're ready, play the video again to see how I do it.
+Ready for the solution.
+So you should have typed in your code like this.
+You can copy and paste it as I have to make it easier.
+Uh huh.
+And change that toe one.
+Everything else remains the same.
+So hit Run for the error analysis.
+We will generate a hist a gram And there is a slight change
+in the history Graham para Mitos So we'll do this together.
+But if you've already done it well, in good just double check
+with what I've done What is the code for the hissed?
+A gram and the changes you need to make our instead of using
+the F open or close, we're going to use the performance data
+superb on the score test one dot Never because we want to see
+the error.
+Now you can leave the bins is 50 ah nde Leave the title as
+well as the Y label on dhe X label The legend It's up to you.
+If you want to display it, you can leave it as true.
+Otherwise, change it to faults.
+It's run, and this is what you're graph should look like.
+There is indeed a bell curve once again, which means the
+distribution is normal.
+The train data find out on your own.
+It is the same code as we used previously, but change the
+variable by adding a one at it.
+Just calculate the mean error for now.
+So pause the video here, try it for yourself and this time
+generate the graph to then play the video again to see how I
+do it.

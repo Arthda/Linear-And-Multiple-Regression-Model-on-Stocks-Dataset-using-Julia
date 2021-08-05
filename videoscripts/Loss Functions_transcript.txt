@@ -1,0 +1,83 @@
+R M A P function is literally going to be, as I have just
+explained it.
+So let's define our function.
+I think function m a p e Open a bracket.
+Earth Underscore.
+Yes. So it's accepting the data frame off our performance.
+The cantor now say m a p Zeke look soup the mean We're
+calculating the mean.
+Then maybe yes, this will calculate the absolute value.
+Open another bracket us and the score.
+BF not error, which is the error that we just calculated
+above dot Make sure you put this shot here slash fish the
+score DF dot Why underscore original.
+So you should have to closing brackets and after that it
+entered.
+Now we'll return the value of MMP tender once again,
+backspace and and this is a sin text off a function in Julia
+hit run.
+This indicates that your function is successfully executed.
+Now let's talk about our MSC or a messy or the root Mean
+square is also known as root mean square deviation.
+It details the standard deviation off the difference between
+the predicted value and the estimated value.
+This is another popular choice for linear regression problems.
+Let's define our function so we're going to type in function
+and we'll call it our MSC.
+Open a bracket once again, it accepts the data frame perf
+underscore dia after the bracket hit, Enter and let's say, or
+a messy is equal to es que rt.
+So that's going to calculate the square root within brackets
+mean that will calculate the mean value.
+Open another bracket and type and curse underscore.
+BF God ever, which is the arrow value that we calculated
+previously, then typing.
+Adopt Asterix on Once again press underscore we have got ever
+after. Both the closing brackets hit, enter and type in
+return are a messy it.
+Enter backspace and end.
+It's run.
+This function is ready as well.
+We will now print out the values off the M A P E as well as
+our messy and which relies them in the form of a history.
+Graham.
+To understand the distribution better, let's begin by
+calculating the maybe and our messy for the test data.
+So just type in Prince Ellen.
+Open a bracket and within double quotations, real type in
+mean, absolute.
+It's like uh huh and added colon after the double quotation
+drama. I mean, I'm gonna bracket BBS, Duck open another
+bracket.
+Fish on the score.
+Test watch.
+Hello. And after both the brackets, make sure you go to the
+end off to off them Captain Comma and within DoubleClick,
+patients at a slash and N which one you line.
+Make sure you first go to the end of the bracket and then to
+the new line.
+Next, we're going to type in print.
+Ellen. Open a bracket and within DoubleClick patients well
+type in mean absolute percentage ever after the public
+location.
+Type in a comma, and this is where you will call the MHP
+function that we justified.
+Open a bracket type and push under score test.
+After that, I been a comma and within double quotations flash
+and then close the bracket hit.
+Enter once again, type in print Ellen Bracket and within
+double quotations.
+This time we're going to type in reach.
+I mean square desk Sarah at Colin O'clock comma.
+This is where we call in our our MSC function.
+Open a bracket and give it the value off purse on the score.
+Yes, after that comma within double quotations.
+Flash n which one you line type in print.
+Ellen open a bracket within double quotations have been mean.
+Where Best error colon after the double quotation comma, then
+type in mean we're gonna bracket first.
+Underscore test darks error underscore.
+It's cute.
+After the bracket, come on within.
+Double quotation slash and they should print all of the
+values, so just hit Run, and you should get the values here.

@@ -1,0 +1,28 @@
+So till now, what we've done is we have calculated the error
+for the performance on the train data and we have generated
+the graph for the performance on the test data.
+So let us also generate a graph.
+What a performance on the train data.
+So your code should look like this hist a gram perf
+underscore instead of test and and train and everything else
+remains the same.
+Just change this to train and hit run here too.
+We have a bell curve shape so the distribution is normal.
+Now let's conduct cross validation on our multiple linear
+regression model.
+Since we already defined the function previously, we could
+just use the same function but fitted with the new model.
+So type in cross underscore relegation from the bracket.
+We use the train data comma Real specify 10 folds.
+Once again, Hama and the new formula that is FM one which
+is used for our multiple linear regression model hit Run Once
+again, you should get 10 different values.
+Let's check the variants on these values.
+So we have 0.3 point 1.2.
+The variation is once again, not much With this.
+We have come to the end off this guided project.
+Congratulations on completing discarded project.
+I hope that you learned a lot about linear regression and how
+to use Julia to do a linear regression.
+Remember to keep practicing so that you can improve your
+skills in Julia programming.

@@ -1,0 +1,127 @@
+Now that we have built our model on Dhe calculated the error
+for it.
+Let's calculate the accuracy by using the K Fold cross
+validation method.
+It is a re sampling procedure used to evaluate machine
+learning models on a limited data sample.
+A single parameter called K is used, which refers
+to the number of groups that a given data sample can be split
+into. This is why it is called K fold Cross validation.
+Let us define a cross validation function by tapping
+in function.
+Crush underscore validation.
+I'm gonna bracket and we're going to give it the train data.
+Mama. Be mhm to indicate the folds.
+Hama FM.
+This is the formula that we won't to be used to type in act
+formula, open the brackets and type in open because we want
+the opening values to be used and then a kildee on clothes
+after build the brackets.
+Six. Center and let's just use variable eight.
+This is going to collect all the values that we calculate so
+is equal to elect.
+Click function is used to collect all the values.
+I've been a capital pay fold from the bracket again size, so
+the pay full function sets the number of falls and the size
+off the falls sighs, and we indicate that we want the train
+data to be used after the bracket.
+Open a square bracket and type in one and comma K after
+brought the brackets.
+Hey, enter.
+Let's create a four loop so that it hydrates through all of
+the values I in one Poland clean the center.
+Yeah. Now we're going to specify that the robe is equal to we
+square bracket.
+Hi hit.
+Enter. We're going to store temporary values.
+So the first is temp train because these values keep changing
+as we go through the loop and I trade off the data Z equals
+shoe train.
+Open a square bracket role comma colon, the square bracket
+hit Enter temp underscore Test is equal to train open square
+bracket set if open a bracket one colon and come up role
+After the bracket.
+I've been a calm again and colon in Julia.
+The function.
+Sex def.
+We'll return the values only of the first that but not off
+the second set.
+Next we're going to se Lin, right is equal to used the Elham
+function.
+This will create the linear regression model for us.
+So Ella FM That's the formula that we specified previously.
+Then comma camp on the score train.
+After that Bush underscore Test is equal.
+Q b f underscore original and say that's equal to We need to
+get the data frame.
+Okay, I've been beat.
+A frame within the bracket happened.
+Why? On the score Original.
+Zeke looks temp.
+Underscore.
+Test open a square bracket, exclamation Colon open because we
+want the opening values.
+Mama, why underscore Fred is equal to predict.
+Okay, bracket.
+And this is where we'll keep in Limerick, which is our linear
+regression model.
+Oh, my camp.
+The score test after both the brackets, the tender And now
+we'll type in Perth.
+Underscore test got error and say that's equal to purse On
+the score Test Open a square bracket.
+Exclamation colon!
+Bye! Underscore Original minus Fresh in the score Test on a
+square bracket.
+Exclamation comma Polling.
+Why underscore Fred?
+Both perf test and proof test error we have already discussed
+and we define them previously.
+So it is just the same thing that we are entering here in the
+cave. Hold function, hit tab and type in Prince Ellen.
+So that we can see the results as the values of being I
+treated within double quotations, type in mean mhm error for
+a set and put in a dollar sign and I to get the exact set
+number polling comma mean in a bracket.
+CBS for absolute dot open another bracket purse.
+Underscore test ducks ever after all of these brackets,
+center type in and then her once again as well as a backspace
+I'm typing.
+And so this here ends the function and this ends the Foreland.
+So just to make sure that you have understood the cave fold,
+cross validation first splits our data into random samples.
+That's what these lines do here.
+Then I treated Li build the K model, which is the linear
+regression model here.
+It keeps building different K models for each subset off the
+data which we get here.
+The subset.
+This is why we used deceptive because it keeps the first
+subset and not the second one.
+During each hydration, we then calculate the mean squared
+error, which is the difference between the predicted values
+and the original values, just as we have done previously.
+I already showed you how to calculate the main square error.
+We take the values as a data frame, then find the difference.
+But here we're doing it.
+I treated Li for each subset.
+Finally, we calculate the mean that is the absolute mean off
+the arrow value.
+So when you run this function, it's been successfully
+executed.
+You should get multiple arrow values.
+Let's check it out right now by calling the cross validation
+function that we just defined survive and cross validation
+from the bracket and passed the train data type in comma.
+We just go for 10 values right now.
+It means that the value of case 10 So the number off folds
+are 10.
+And when we hit run, Just note.
+In my code I accidentally missed out a comma here.
+When you're typing in, make sure that you add the coma there
+Always You get an error once again while typing.
+I missed out a comma here.
+So in your code, please ensure that you at the comma here.
+Well, when you call the function and you pass the train data
+as well as specify 10 folds, you should get all off the error
+values displayed here.
