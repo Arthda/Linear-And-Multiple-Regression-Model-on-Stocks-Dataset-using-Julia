@@ -111,7 +111,7 @@ end
 
 cross_validation(train,10)
 
-#....................................Multiple Linear regression.................................................................
+#....................................Multiple Linear regression on same dataset.................................................................
 
 fm1 =@formula(open~close+high+low)
 linreg1 = lm(fm1,train)
